@@ -1,0 +1,96 @@
+body{
+    background-color: #141414;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: flex;
+}
+.first-rec{
+    background-color: #1F1F1F;
+    padding: 10px;
+    width: 298px;
+    height: 480px;
+    margin:100px 25px 0px 605px ;
+    border-radius: 13px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+/* Media Query für kleinere Bildschirme */
+@media (max-width: 768px) {
+    .first-rec {
+        width: 200px;
+        height: 300px;
+        margin: 50px 10px 0px 10px;
+    }
+    .content{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+}
+
+/* Media Query für sehr kleine Bildschirme */
+@media (max-width: 480px) {
+    .first-rec {
+        width: 150px;
+        height: 250px;
+        margin: 20px 5px 0px 5px;
+    }
+}
+
+.prof-fot{
+    margin: 10px 0px 250px 105px;
+    position:fixed;
+}
+.prof-pic{
+    border-radius: 700px;
+    width: 90px;
+    position: fixed;
+}
+.name{
+    margin: 110px 0px 0px 55px;
+    color: white;
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+.location{
+    color: yellow;
+    margin: 150px 0px 0px 75px;
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+.desc{
+    color: white;
+    margin: 187px 0px 0px 35px;
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    background-color:#333333 ;
+    width: 260px;
+    height: 35px;
+    border-radius: 4px;
+    color: white;
+    margin: 2px ;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 0.4s;
+}
+.btn{
+    margin: 230px 0px 0px 20px;
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+}
