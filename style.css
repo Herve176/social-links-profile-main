@@ -10,7 +10,7 @@ body{
     padding: 10px;
     width: 298px;
     height: 480px;
-    margin:100px 25px 0px 605px ;
+    margin:100px 25px 0px 43% ;
     border-radius: 13px;
     position: fixed;
     justify-content: center;
@@ -25,9 +25,9 @@ body{
 /* Media Query für kleinere Bildschirme */
 @media (max-width: 768px) {
     .first-rec {
-        width: 200px;
-        height: 300px;
-        margin: 50px 10px 0px 10px;
+        width: 300px;
+        height: 500px;
+        margin: 50px 10px 0px 50px;
     }
     .content{
     justify-content: center;
